@@ -7,7 +7,6 @@ const objectTele = [
     image:
       "https://www.mediazone.ma/product/images/14610-PQJ420DW/apple-iphone-15-pro-max-maroc.webp",
   },
-
   {
     id: 2,
     nom: "iPhone 16 Pro Max",
@@ -26,7 +25,6 @@ const objectTele = [
     image:
       "https://img.kwcdn.com/product/fancy/4507bde5-9696-456a-a3be-5d137db33cd9.jpg?imageView2/2/w/800/q/70/format/webp",
   },
-  ,
   {
     id: 4,
     nom: "Samsung Galaxy A35 5G",
