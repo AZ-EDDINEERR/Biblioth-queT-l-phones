@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Navigate,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from "./myprojet/login";
@@ -19,16 +18,7 @@ import Forms from "./myprojet/forms";
 import Contact from "./myprojet/contact";
 import PCportable from "./myprojet/PCportable";
 import ProduitRecent from "./myprojet/ProduitR";
-
 function App() {
-  // const [isAuth, setIsAuth] = useState(false); // 🔐 état de connexion
-
-  // Composant de protection
-  // const ProtectedRoute = ({ children }) => {
-  //   return isAuth ? children : <Navigate to="/" />;
-  // };
-
-  // --- Panier ---px 
   const [panier, setPanier] = useState([]);
   const ajouterAuPanier = (produit) => {
     setPanier((prev) => [...prev, produit]);
@@ -36,7 +26,6 @@ function App() {
   const supprimerDuPanier = (index) => {
     setPanier((prev) => prev.filter((_, i) => i !== index));
   };
-
   // --- Favoris ---
   const [favoris, setFavoris] = useState([]);
   const ajouterAuxFavoris = (produit) => {
@@ -47,7 +36,6 @@ function App() {
   const supprimerDesFavoris = (index) => {
     setFavoris((prev) => prev.filter((_, i) => i !== index));
   };
-
   return (
     <CartContext.Provider
       value={{
