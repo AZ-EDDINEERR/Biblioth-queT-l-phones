@@ -87,13 +87,15 @@ function Produits() {
             <p className="card-text">{x.description}</p>
             <p className="card-prix">{x.prix} DH</p>
 
-            <button onClick={() => handleAjouter(x)}>
-              <FaShoppingCart /> Acheter
-            </button>
+          <div className="d-flex align-items-center justify-content-between mx-3">
+              <button onClick={() => handleAjouter(x)} className="btn btn-info">
+                <FaShoppingCart /> Acheter
+              </button>
 
-            <span onClick={() => ajouterAuxFavoris(x)} className="faHeart">
-              <FaHeart />
-            </span>
+              <span onClick={() => ajouterAuxFavoris(x)} className="faHeart">
+                <FaHeart />
+              </span>
+            </div>
           </div>
         ))}
       </div>
