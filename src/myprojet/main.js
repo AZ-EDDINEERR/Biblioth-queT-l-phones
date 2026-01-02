@@ -16,7 +16,7 @@ function Main() {
         </button>
       </main>
       <div className="main-logo">
-        <img src="https://zonetech.ma/wp-content/uploads/2023/12/PC-Portable-casablanca-1024x604.jpeg" width="700px" height="500px" />
+        <img src="https://zonetech.ma/wp-content/uploads/2023/12/PC-Portable-casablanca-1024x604.jpeg" width="700px" height="500px" alt="Logo de l'application" />
       </div>
     </div>
   );
