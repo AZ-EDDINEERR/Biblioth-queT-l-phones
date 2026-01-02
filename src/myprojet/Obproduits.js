@@ -214,4 +214,5 @@ const prod = [
       "https://creativehub.teliacompany.com/transform/5f7bb8aa-9b36-4b2f-94f9-b90895fd202e/iPhone_17_Pro_Max_Cosmic_Orange_PDP_Image_Position_1__WWEN?io=transform:fill,width:500&quality=95",
   },
 ];
-export default { objectPc, objectTele, prod };
+const data = { objectPc, objectTele, prod };
+export default data;
