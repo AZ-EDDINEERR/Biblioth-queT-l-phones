@@ -33,12 +33,16 @@ function Footer() {
           <div className="col-md-4 mb-4">
             <h5 className="fw-bold">Suivez-nous</h5>
             <div className="d-flex gap-3 mb-3">
-              <a href="#" className="text-white fs-5"><FaFacebookF /></a>
-              <a href="#" className="text-white fs-5"><FaTwitter /></a>
-              <a href="#" className="text-white fs-5"><FaInstagram /></a>
-              <a href="#" className="text-white fs-5"><FaLinkedin /></a>
+               <a href="https://github.com/" target="_blank" rel="noreferrer" className="d-flex align-items-center text-dark text-decoration-none">
+                <FaGithub style={{ color: "#010408ff", fontSize: "24px" }} className="me-2" /> GitHub
+               </a>
+              <a href="https://www.linkedin.com/in/az-eddine-errahmaoui-672759376" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center text-dark text-decoration-none">
+                <FaLinkedin style={{ color: "#0A66C2", fontSize: "24px" }} className="me-2" /> Linkedin
+               </a>
+              <a href="https://twitter.com/devAzeddine" target="_blank" rel="noreferrer" className="d-flex align-items-center text-dark text-decoration-none">
+                <FaTwitter style={{ color: "#0edbffff", fontSize: "24px" }} className="me-2" /> Twitter
+              </a>
             </div>
-
             <h6 className="fw-bold">Newsletter</h6>
             <form className="d-flex">
               <input type="email" className="form-control me-2" placeholder="Votre email" />
