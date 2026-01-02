@@ -1,12 +1,11 @@
 // src/myprojet/Forms.js
-import React,{ useState, useEffect } from 'react'
+import React,{ useState } from 'react'
 function Contact() {
   const [nom, setNom] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [numéro, setNuméro] = useState('');
   const [ville, setVille] = useState('');
-  const [color, setColor] = useState('');
   const [SHOW, setSHOW] = useState(false);
   const [SH, setSH] = useState(false);
   return (
