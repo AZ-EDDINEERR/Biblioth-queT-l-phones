@@ -5,7 +5,6 @@ import {
   Route,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from "./myprojet/login";
 import Header from "./myprojet/header";
 import Main from "./myprojet/main";
 import Footer from "./myprojet/footer";
